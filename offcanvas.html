@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OffCanvas</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col">
+                <a href="#mi-offcanvas" class="btn btn-primary"
+                data-bs-toggle="offcanvas" role="button"
+                aria-controls="mi-offcanvas">
+                    Boton
+                </a>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="mi-offcanvas" 
+                aria-labelledby="mi-offcanvas" data-bs-backdrop="false"> <!-- data-bs-backdrop: me sirve para quitar el fondo oscuro que se agrega -->
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title">Titulo</h5>
+                        <button type="button" class="btn-close text-reset"
+                        data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                             facilis debitis nihil! Iure, nesciunt.</p>
+                    </div>
+                </div>
+                <h3>Lorem, ipsum dolor.</h3> 
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eos eius fugiat
+                    quod ipsam mollitia, corrupti totam dolor esse nesciunt nulla officiis sunt ratione
+                    incidunt perferendis a maiores! Id, illum.</p>                               
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
